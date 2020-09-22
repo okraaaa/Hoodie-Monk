@@ -1,0 +1,799 @@
+fileFormatVersion: 2
+guid: 9f754571dc023b541b30fd25d5149578
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2741363095428465015
+    second: THEUPDATE_0
+  - first:
+      213: 1226260190181574744
+    second: THEUPDATE_1
+  - first:
+      213: -8528900796598957779
+    second: THEUPDATE_2
+  - first:
+      213: -2266109757385054780
+    second: THEUPDATE_3
+  - first:
+      213: -5302752825052059619
+    second: THEUPDATE_4
+  - first:
+      213: 825592491652014918
+    second: THEUPDATE_5
+  - first:
+      213: -2471766147649032885
+    second: THEUPDATE_6
+  - first:
+      213: 1659976613005683475
+    second: THEUPDATE_7
+  - first:
+      213: -3320976289941740462
+    second: THEUPDATE_8
+  - first:
+      213: -8382915939058577915
+    second: THEUPDATE_9
+  - first:
+      213: 4493791032653636412
+    second: THEUPDATE_10
+  - first:
+      213: 3924429932593348787
+    second: THEUPDATE_11
+  - first:
+      213: -3779943570853161091
+    second: THEUPDATE_12
+  - first:
+      213: -6488431730394391319
+    second: THEUPDATE_13
+  - first:
+      213: -1267263956263793440
+    second: THEUPDATE_14
+  - first:
+      213: -5053746971395385685
+    second: THEUPDATE_15
+  - first:
+      213: -7557206890602481856
+    second: THEUPDATE_16
+  - first:
+      213: -3390083952439281392
+    second: THEUPDATE_17
+  - first:
+      213: 5296117925742246845
+    second: THEUPDATE_18
+  - first:
+      213: 1896673289582996813
+    second: THEUPDATE_19
+  - first:
+      213: 5198408924833983899
+    second: THEUPDATE_20
+  - first:
+      213: 1264564957197075855
+    second: THEUPDATE_21
+  - first:
+      213: -6540580872188541347
+    second: THEUPDATE_22
+  - first:
+      213: 8741062072221860910
+    second: THEUPDATE_23
+  - first:
+      213: -2884482026947773664
+    second: THEUPDATE_24
+  - first:
+      213: -1428044708933427005
+    second: THEUPDATE_25
+  - first:
+      213: 8351144553106805139
+    second: THEUPDATE_26
+  - first:
+      213: 4227139860761032242
+    second: THEUPDATE_27
+  - first:
+      213: 6337249421605819334
+    second: THEUPDATE_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 74
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: THEUPDATE_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1290
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e607991e14878f47bf813e244141758
+      internalID: -2741363095428465015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_1
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1290
+        width: 90
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4304cfb961aef49b43e1f59f4ccff4
+      internalID: 1226260190181574744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1290
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212b62f126cf6414dacf84929ef8088f
+      internalID: -8528900796598957779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_3
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 1290
+        width: 90
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898720edeceb2b9479f85c969fec14c6
+      internalID: -2266109757385054780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1290
+        width: 90
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b63ec06cf7cb214e98f40c1e1821a41
+      internalID: -5302752825052059619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_5
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1290
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12bf694f9cad99478fef7dbfbc347e8
+      internalID: 825592491652014918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_6
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1290
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a8b66faa692694f9d1e545e58fe69a
+      internalID: -2471766147649032885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_7
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1290
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb3f17d313f42f409c044c35be66f33
+      internalID: 1659976613005683475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_8
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1290
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d166470ef21b1846b275cc834fc8e5f
+      internalID: -3320976289941740462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1170
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858e363deed56ea49b1ba9b6bc22be5a
+      internalID: -8382915939058577915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1170
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17099a155cf82a409c13098bbc5b654
+      internalID: 4493791032653636412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1170
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07baf96187f1e0e46ab7264cf1ace005
+      internalID: 3924429932593348787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1170
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550de0514062aa747b14955cf64cb825
+      internalID: -3779943570853161091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1170
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5c619ce73f2754495225d0109a8365
+      internalID: -6488431730394391319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_14
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1170
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d9bd4759e05d4aa1d5748e915d449
+      internalID: -1267263956263793440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_15
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1140
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0abc702f28a0143b581fbb0c28240e
+      internalID: -5053746971395385685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1065
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dea2bccfe8b3084e972c5eeda3da3c8
+      internalID: -7557206890602481856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1050
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f1866403d3fb34780810862ab07455
+      internalID: -3390083952439281392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_18
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1050
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48885565fa6dee468453d7dfdb8d803
+      internalID: 5296117925742246845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1050
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8063b349eb5c2444b97116257d21a5c4
+      internalID: 1896673289582996813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_20
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1020
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcd1e8ddd8240942b11d236ab44c42d
+      internalID: 5198408924833983899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_21
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 930
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66a47092ef3f8d448b9a1b878adce7f
+      internalID: 1264564957197075855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 930
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77d30bb21826d5479acb44e652ee9d3
+      internalID: -6540580872188541347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 930
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7323af704aea6a74fb826c4b0f7d0a44
+      internalID: 8741062072221860910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_24
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 930
+        width: 75
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b98886da22ca241ba7dd9c75e074d5
+      internalID: -2884482026947773664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_25
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 765
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6199c74ca2c72ec4c8cdde9ebd3a0f96
+      internalID: -1428044708933427005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_26
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 765
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced59c703cf592840a04ffcb707be76e
+      internalID: 8351144553106805139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_27
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 780
+        width: 105
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f020c89e1a6fe74b8e60edbee706e7d
+      internalID: 4227139860761032242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: THEUPDATE_28
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 780
+        width: 105
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83af9832950ccc44b825b92440dbda8f
+      internalID: 6337249421605819334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

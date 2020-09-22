@@ -49,7 +49,6 @@ public class PlayerController : MonoBehaviour
             animator.enabled = true; //Enables Animation
             transform.position += Vector3.right * speed * Time.deltaTime; //Moves Character
             animator.SetFloat("Move X", lookDirection.x); //Sets direction for animator to move/look in
-            facingRight = true;
             //background.transform.position += Vector3.right * backgroundSpeed * Time.deltaTime;
         }
         else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
@@ -58,7 +57,6 @@ public class PlayerController : MonoBehaviour
             animator.enabled = true;
             transform.position += Vector3.left * speed * Time.deltaTime;
             animator.SetFloat("Move X", lookDirection.x - 1);
-            facingRight = false;
             if (rigidbody2d.velocity.x < 0.1)
             {
                 //background.transform.position += Vector3.left * backgroundSpeed * Time.deltaTime;
@@ -71,23 +69,27 @@ public class PlayerController : MonoBehaviour
         if (isGrounded == true)
         {
             //jumpsLeft = 1;
-            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow))
             {
                 rigidbody2d.velocity = Vector2.up * jumpVelocity; //Jump
                 StopAllCoroutines(); //Stops idle sprite
             }
         }
-
-        if (GetButtonDown(KeyCode.D)) {
-            if (facingRight = !true) {
+        //FIX THIS LATER
+        if (Input.GetKeyDown(KeyCode.D)){
+            if (facingRight != true)
+            {
+                Debug.Log("aaaaaa");
                 firePoint.Rotate(0f, 180f, 0f);
-            }
-            else if (facingRight == true) { }
+                facingRight = true;
             }
         }
-        else if (GetButtonDown(KeyCode.A)){
-            if (facingRight == true){
+        else if (Input.GetKeyDown(KeyCode.A)){
+            if (facingRight == true)
+            {
+                Debug.Log("fuuuuuuu");
                 firePoint.Rotate(0f, 180f, 0f);
+                facingRight = false;
             }
         }
 

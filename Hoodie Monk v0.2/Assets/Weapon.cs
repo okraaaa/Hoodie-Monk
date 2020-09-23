@@ -6,8 +6,13 @@ public class Weapon : MonoBehaviour {
 
     public Transform firePoint;
     public GameObject bulletPrefab;
+    public GameObject initialFireParticlces;
+    private ParticleSystem FiringParticles;
 
-    // Update is called once per frame
+    private void Start(){
+        FiringParticles = initialFireParticlces.GetComponent<ParticleSystem>();
+    }
+
     void Update() {
         if(Input.GetButtonDown("Fire1"))
         {
@@ -17,6 +22,7 @@ public class Weapon : MonoBehaviour {
     }
     void Shoot()
     {
+        FiringParticles.Play();
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
     }
 }

@@ -79,7 +79,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D)){
             if (facingRight != true)
             {
-                Debug.Log("aaaaaa");
+                Debug.Log("RIGHT");
+                firePoint.transform.localPosition = new Vector3(firePoint.transform.localPosition.x, firePoint.localPosition.y);
                 firePoint.Rotate(0f, 180f, 0f);
                 facingRight = true;
             }
@@ -87,7 +88,8 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.A)){
             if (facingRight == true)
             {
-                Debug.Log("fuuuuuuu");
+                Debug.Log("LEFT");
+                firePoint.transform.localPosition = new Vector3(-firePoint.transform.localPosition.x, firePoint.localPosition.y);
                 firePoint.Rotate(0f, 180f, 0f);
                 facingRight = false;
             }

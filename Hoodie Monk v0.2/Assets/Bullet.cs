@@ -18,15 +18,19 @@ public class Bullet : MonoBehaviour
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
         Instantiate(impactEffect, transform.position, transform.rotation);
-        DetachParticles();
         Debug.Log(hitInfo.name);
-        Destroy(gameObject);
+        //Destroy(impactEffect.gameObject, 1f);
+        Die();
     }
 
-    public void DetachParticles() // Call this immediately before you destroy your missile
+    public void Die() // Call this immediately before you destroy your missile
     {
-        // This splits the particle off so it doesn't get deleted with the parent
-        travelingFire.transform.parent = null;
+        //// This splits the particle off so it doesn't get deleted with the parent
+        //travelingFire.transform.SetParent(null);
+
+        Destroy(rb);
         travelingFire.Stop();
+        rb.GetComponent<Renderer>().enabled = false;
+        Destroy(gameObject, 0.7f);
     }
 }

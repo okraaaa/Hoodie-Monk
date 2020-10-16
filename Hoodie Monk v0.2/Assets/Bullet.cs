@@ -27,10 +27,9 @@ public class Bullet : MonoBehaviour
     {
         //// This splits the particle off so it doesn't get deleted with the parent
         //travelingFire.transform.SetParent(null);
-
+        rb.GetComponent<Renderer>().enabled = false;
         Destroy(rb);
         travelingFire.Stop();
-        rb.GetComponent<Renderer>().enabled = false;
         Destroy(gameObject, 0.7f);
     }
 }

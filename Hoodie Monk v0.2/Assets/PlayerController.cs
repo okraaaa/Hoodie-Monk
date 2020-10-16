@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour
 
     Animator animator;
     Vector2 lookDirection = new Vector2(1, 0);
-    private bool facingRight = true; //REEEEEEEEEEE
+    bool facingRight = true; //REEEEEEEEEEE
     public Transform firePoint;
 
     public Sprite idleSprite;
@@ -45,6 +45,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
+            FaceRight();
             StopAllCoroutines(); //Stops idle sprite
             animator.enabled = true; //Enables Animation
             transform.position += Vector3.right * speed * Time.deltaTime; //Moves Character
@@ -53,6 +54,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
+            FaceLeft();
             StopAllCoroutines();
             animator.enabled = true;
             transform.position += Vector3.left * speed * Time.deltaTime;
@@ -75,26 +77,28 @@ public class PlayerController : MonoBehaviour
                 StopAllCoroutines(); //Stops idle sprite
             }
         }
-        //FIX THIS LATER
-        if (Input.GetKeyDown(KeyCode.D)){
+
+        void FaceRight()
+        {
             if (facingRight != true)
             {
-                Debug.Log("RIGHT");
-                firePoint.transform.localPosition = new Vector3(firePoint.transform.localPosition.x, firePoint.localPosition.y);
+                Debug.Log("FACING RIGHT");
+                firePoint.transform.localPosition = new Vector3(1, firePoint.localPosition.y);
                 firePoint.Rotate(0f, 180f, 0f);
                 facingRight = true;
             }
         }
-        else if (Input.GetKeyDown(KeyCode.A)){
-            if (facingRight == true)
+
+        void FaceLeft()
+        {
+            if (facingRight)
             {
-                Debug.Log("LEFT");
-                firePoint.transform.localPosition = new Vector3(-firePoint.transform.localPosition.x, firePoint.localPosition.y);
+                Debug.Log("FACING LEFT");
+                firePoint.transform.localPosition = new Vector3(-1, firePoint.localPosition.y);
                 firePoint.Rotate(0f, 180f, 0f);
                 facingRight = false;
             }
         }
-
 
 
 

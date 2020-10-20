@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     public Sprite idleSprite;
     public Sprite jumpSprite;
     public Sprite fallSprite;
+    public Sprite fireSprite;
 
     public bool isGrounded;
     public int jumpsLeft;
@@ -75,6 +76,12 @@ public class PlayerController : MonoBehaviour
             {
                 rigidbody2d.velocity = Vector2.up * jumpVelocity; //Jump
                 StopAllCoroutines(); //Stops idle sprite
+            }
+        if (Input.GetButtonDown("Fire1")){
+                //Debug.Log("woo back");
+                StopAllCoroutines();
+                animator.enabled = false;
+                this.GetComponent<SpriteRenderer>().sprite = fireSprite; //Sets the sprite to firing sprite
             }
         }
 

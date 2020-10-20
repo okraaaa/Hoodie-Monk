@@ -9,21 +9,22 @@ public class Bullet : MonoBehaviour
     public Rigidbody2D rb;
     public ParticleSystem impactEffect;
     public ParticleSystem travelingFire;
+    private ParticleSystem boomPs;
 
 
     void Start() {
         rb.velocity = transform.right * speed;
     }
 
-    void OnTriggerEnter2D(Collider2D hitInfo)
+    void OnTriggerExit2D(Collider2D hitInfo) // THIS FUNC CALLS TWICE SOMETIMES, CLAIM ITS CRITS FOR NOW, FIX THIS LATER.
     {
-        Instantiate(impactEffect, transform.position, transform.rotation);
+        boomPs = Instantiate(impactEffect, transform.position, transform.rotation) as ParticleSystem;
         Debug.Log(hitInfo.name);
-        //Destroy(impactEffect.gameObject, 1f);
+        Destroy(boomPs.gameObject, 1f);
         Die();
     }
 
-    public void Die() // Call this immediately before you destroy your missile
+    public void Die()
     {
         //// This splits the particle off so it doesn't get deleted with the parent
         //travelingFire.transform.SetParent(null);

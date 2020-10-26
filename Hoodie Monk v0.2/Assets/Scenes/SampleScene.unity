@@ -47741,9 +47741,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aeaf5b48bb5809439da1bf44d5fcb2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
   vertical: 0
+  speed: 3
   changeTime: 3
+  enemyDeathParticles: {fileID: 7629526627033536387, guid: 09759bead86d77b4084de285eaa83a8f,
+    type: 3}
+  idleSprite: {fileID: -1428044708933427005, guid: 9f754571dc023b541b30fd25d5149578,
+    type: 3}
+  hitSprite: {fileID: 4227139860761032242, guid: 9f754571dc023b541b30fd25d5149578,
+    type: 3}
+  enemyhealth: 15
 --- !u!61 &371303756
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52586,7 +52593,7 @@ Transform:
   m_Children:
   - {fileID: 1753567016}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -52704,7 +52711,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1023518800
 GameObject:
@@ -52852,7 +52859,7 @@ Transform:
   m_Children:
   - {fileID: 280524373}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1450482642 stripped
 GameObject:
@@ -57762,7 +57769,7 @@ AudioSource:
   m_Volume: 0.648
   m_Pitch: 1
   Loop: 1
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
